@@ -32,11 +32,6 @@ sleep 10
 open steam://run/410340
 ```
 
-
-```bash
-#!/bin/bash
-```
-
 # Open Steam
 open -a steam
 
