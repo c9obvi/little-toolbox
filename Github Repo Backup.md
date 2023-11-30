@@ -111,11 +111,11 @@ You can use the `pmset` command to schedule your Mac to wake or power on at spec
 
 1. **Open Terminal**:
 
-Find Terminal in the Applications > Utilities folder, or use Spotlight to search for it.
+  Find Terminal in the Applications > Utilities folder, or use Spotlight to search for it.
 
 2. **Schedule a Wake or Power On Event**:
 
-Use the `pmset` command to set a wake schedule. For example, to wake your Mac every weekday at 7:30 AM:
+  Use the `pmset` command to set a wake schedule. For example, to wake your Mac every weekday at 7:30 AM:
      ```
      sudo pmset repeat wakeorpoweron MTWRFSU 07:30:00
      ```
@@ -123,14 +123,14 @@ Use the `pmset` command to set a wake schedule. For example, to wake your Mac ev
 
 3. **Verify Your Schedule**:
    
-To check your current wake schedule, run:
+  To check your current wake schedule, run:
      ```
      pmset -g sched
      ```
 
 4. **Cancel a Scheduled Event**:
    
-To remove a scheduled wake event, use:
+  To remove a scheduled wake event, use:
      ```
      sudo pmset repeat cancel
      ```
@@ -139,11 +139,11 @@ To remove a scheduled wake event, use:
 
 1. **Edit Crontab**:
    
-Run `crontab -e` in the Terminal to edit your cron jobs.
+  Run `crontab -e` in the Terminal to edit your cron jobs.
 
 2. **Add Your Backup Script to Cron**:
    
-Add a line for your backup script, timed a few minutes after the wake schedule:
+  Add a line for your backup script, timed a few minutes after the wake schedule:
      ```
      0 2 * * * /path/to/backup_github_repos.sh
      ```
@@ -151,7 +151,7 @@ Add a line for your backup script, timed a few minutes after the wake schedule:
 
 3. **Save and Close**:
    
-Save the changes and exit the editor.
+  Save the changes and exit the editor.
 
 ### Notes
 
