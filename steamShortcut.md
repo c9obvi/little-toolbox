@@ -32,15 +32,6 @@ sleep 10
 open steam://run/410340
 ```
 
-# Open Steam
-open -a steam
-
-# Wait for Steam to launch (adjust time if necessary)
-sleep 10
-
-# Launch Liftoff via Steam with its Steam ID
-open steam://run/410340
-
 ### Setup Instructions
 
 1. **Create the Script File**: Create a new file with a `.sh` extension, for example, `launch_liftoff.sh`.
