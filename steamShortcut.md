@@ -35,8 +35,8 @@ open steam://run/410340
 ### Setup Instructions
 
 1. **Create the Script File**: Create a new file with a `.sh` extension, for example, `launch_liftoff.sh`.
-2. **Make the Script Executable**: Run the command `chmod +x launch_liftoff.sh` in your terminal to make the script executable.
-3. **Execute the Script**: Run the script by typing `./launch_liftoff.sh` in your terminal.
+2. **Make the Script Executable**: Run the command ```chmod +x launch_liftoff.sh``` in your terminal to make the script executable.
+3. **Execute the Script**: Run the script by typing ```./launch_liftoff.sh``` in your terminal.
 
 ## Customization
 
@@ -55,7 +55,7 @@ For further issues, consult the game's support forums or Steam support.
 
 ## License
 
-[Add your preferred License here]
+[my license] lol
 
 ---
 Generated for use on GitHub - [0xBerto](https://twitter.com/0xberto)
