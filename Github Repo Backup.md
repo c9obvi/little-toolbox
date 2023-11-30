@@ -64,3 +64,36 @@ This script is designed to backup all your GitHub repositories (both public and 
 - Handle your Personal Access Token with care. It's recommended not to hardcode it in the script if you're sharing it.
 - The script currently fetches up to 100 repositories. If you have more, adjust the pagination in the API request.
 - The script does not delete local repositories that no longer exist on GitHub.
+
+# Automation with Cron
+
+To automate the backup process, you can set up a cron job that runs the script at regular intervals. Here's how to do it:
+
+1. **Open the Crontab Configuration**:
+   - In your terminal, run `crontab -e` to edit the cron jobs for your user.
+
+2. **Add a Cron Job**:
+   - In the crontab editor, add a line that specifies when and how often the script should run. For example:
+     ```
+     0 2 * * * /path/to/backup_github_repos.sh
+     ```
+     This example sets the script to run at 2 AM every day. Adjust the schedule to your preference.
+     - The format is `minute hour day month day-of-week command`.
+     - Ensure you provide the full path to `backup_github_repos.sh`.
+
+3. **Save and Exit**:
+   - Save the file and exit the editor. Cron will automatically install the new cron job.
+
+### Understanding Cron Syntax:
+
+- `* * * * *` consists of five fields: minute (0-59), hour (0-23), day of the month (1-31), month (1-12), and day of the week (0-7, where 0 and 7 are Sunday).
+- Use commas to specify a list (e.g., `5,10` in the hour field means 5 AM and 10 AM).
+- Use hyphens to specify ranges (e.g., `1-5` in the day-of-week field means Monday to Friday).
+- Use the asterisk `*` to specify 'any'.
+
+### Notes on Automation:
+
+- Ensure your computer is running at the scheduled time for the backup.
+- The script will run in the background without interrupting your activities.
+- Review the backup periodically to ensure it's running as expected.
+
