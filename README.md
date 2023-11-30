@@ -1,6 +1,6 @@
 # little-toolbox
 
-just a little toolbox to help make my day easier
+just a little toolbox to help make my day easier 🧰🪛
 
 ### Open Steam in terminal directly to an app:
 • https://github.com/c9obvi/little-toolbox/steamShortcut.md
