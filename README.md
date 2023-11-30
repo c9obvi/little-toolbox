@@ -10,3 +10,6 @@ just a little toolbox to help make my day easier
 
 ### Preheat the oven - RaspberryPi Setup(how I like)
 • https://github.com/c9obvi/preheat
+
+### RaspberryPi NAS + Plex
+• https://github.com/c9obvi/nasTpi
