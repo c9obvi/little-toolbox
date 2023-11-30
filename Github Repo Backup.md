@@ -70,10 +70,13 @@ This script is designed to backup all your GitHub repositories (both public and 
 To automate the backup process, you can set up a cron job that runs the script at regular intervals. Here's how to do it:
 
 1. **Open the Crontab Configuration**:
-   - In your terminal, run `crontab -e` to edit the cron jobs for your user.
+   
+In your terminal, run `crontab -e` to edit the cron jobs for your user.
 
 2. **Add a Cron Job**:
-   - In the crontab editor, add a line that specifies when and how often the script should run. For example:
+
+In the crontab editor, add a line that specifies when and how often the script should run. For example:
+     
      ```
      0 2 * * * /path/to/backup_github_repos.sh
      ```
@@ -82,7 +85,8 @@ To automate the backup process, you can set up a cron job that runs the script a
      - Ensure you provide the full path to `backup_github_repos.sh`.
 
 3. **Save and Exit**:
-   - Save the file and exit the editor. Cron will automatically install the new cron job.
+
+Save the file and exit the editor. Cron will automatically install the new cron job.
 
 ### Understanding Cron Syntax:
 
@@ -106,23 +110,27 @@ To automate the backup process and ensure it runs even when your Mac is asleep, 
 You can use the `pmset` command to schedule your Mac to wake or power on at specific times:
 
 1. **Open Terminal**:
-   Find Terminal in the Applications > Utilities folder, or use Spotlight to search for it.
+
+Find Terminal in the Applications > Utilities folder, or use Spotlight to search for it.
 
 2. **Schedule a Wake or Power On Event**:
-   Use the `pmset` command to set a wake schedule. For example, to wake your Mac every weekday at 7:30 AM:
+
+Use the `pmset` command to set a wake schedule. For example, to wake your Mac every weekday at 7:30 AM:
      ```
      sudo pmset repeat wakeorpoweron MTWRFSU 07:30:00
      ```
    Replace `MTWRFSU` and `07:30:00` with the days and time you prefer.
 
 3. **Verify Your Schedule**:
-   To check your current wake schedule, run:
+   
+To check your current wake schedule, run:
      ```
      pmset -g sched
      ```
 
 4. **Cancel a Scheduled Event**:
-   To remove a scheduled wake event, use:
+   
+To remove a scheduled wake event, use:
      ```
      sudo pmset repeat cancel
      ```
@@ -130,17 +138,20 @@ You can use the `pmset` command to schedule your Mac to wake or power on at spec
 ### Setting Up Your Cron Job
 
 1. **Edit Crontab**:
-   Run `crontab -e` in the Terminal to edit your cron jobs.
+   
+Run `crontab -e` in the Terminal to edit your cron jobs.
 
 2. **Add Your Backup Script to Cron**:
-   Add a line for your backup script, timed a few minutes after the wake schedule:
+   
+Add a line for your backup script, timed a few minutes after the wake schedule:
      ```
      0 2 * * * /path/to/backup_github_repos.sh
      ```
    This example sets the script to run at 2 AM daily. Adjust as needed.
 
 3. **Save and Close**:
-   Save the changes and exit the editor.
+   
+Save the changes and exit the editor.
 
 ### Notes
 
