@@ -19,6 +19,20 @@ The script performs the following actions:
 
 Copy the following script into a new file:
 
+```
+#!/bin/bash
+
+# Open Steam
+open -a steam
+
+# Wait for Steam to launch (adjust time if necessary)
+sleep 10
+
+# Launch Liftoff via Steam with its Steam ID
+open steam://run/410340
+```
+
+
 ```bash
 #!/bin/bash
 ```
