@@ -97,8 +97,7 @@ To automate the backup process, you can set up a cron job that runs the script a
 - The script will run in the background without interrupting your activities.
 - Review the backup periodically to ensure it's running as expected.
 
-# Combining Wake Up in MacOS + Cron
-## Automation with Cron and Wake Scheduling
+# Combining Wake Scheduling in MacOS + Cron 
 
 To automate the backup process and ensure it runs even when your Mac is asleep, you can set up a cron job and schedule wake-up times using the Terminal.
 
