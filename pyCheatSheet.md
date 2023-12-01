@@ -100,7 +100,7 @@ List Slicing
 
 my_list = [0, 1, 2, 3, 4, 5]
 
-# Get elements from index 1 to 4
+ Get elements from index 1 to 4
 ```
 sliced_list = my_list[1:5]
 
