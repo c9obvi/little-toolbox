@@ -39,6 +39,15 @@ nano ~/.zshrc
 ```
 2. create an alias 
 ```bash
-alias newc='/Users/beto/create_and_open.sh'
+alias newcode='/Users/beto/create_and_open.sh'
 ```
+3. source your new zshrc
+```bash
+source ~/.zshrc
+```
+4. let it rip
+```bash
+codenow
+```
+
 
