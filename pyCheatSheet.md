@@ -91,17 +91,20 @@ finally:
 ```
 
 String Formatting with f-strings
-
+```
 name = "Alice"
 age = 30
 greeting = f"Hello, {name}, you are {age} years old."
-
+```
 List Slicing
 
 my_list = [0, 1, 2, 3, 4, 5]
+
 # Get elements from index 1 to 4
+```
 sliced_list = my_list[1:5]
 
 Tuple Unpacking
 
 a, b = (1, 2)
+```
