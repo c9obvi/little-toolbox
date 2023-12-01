@@ -29,4 +29,16 @@ code .
    ./create_and_open.sh
    ```
 
-**Note:** This script assumes that `code` is set up as an alias in your `~/.zshrc` file to open Visual Studio Code. Ensure this alias exists before running the script.
+> [!NOTE] This script assumes that `code` is set up as an alias in your `~/.zshrc` file to open Visual Studio Code. Ensure this alias exists before running the script.
+
+## addint to ~/.zshrc
+
+1. open termninal from home directory
+```bash
+nano ~/.zshrc
+```
+2. alias 
+```bash
+newc=/Users/beto/create_and_open.sh
+```
+
