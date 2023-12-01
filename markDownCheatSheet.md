@@ -1,6 +1,9 @@
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
-
+```
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+```
 > [!TIP]
 > Optional information to help a user be more successful.
 
