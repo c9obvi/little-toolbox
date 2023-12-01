@@ -39,6 +39,6 @@ nano ~/.zshrc
 ```
 2. create an alias 
 ```bash
-alias newc=/Users/beto/create_and_open.sh
+alias newc='/Users/beto/create_and_open.sh'
 ```
 
