@@ -47,7 +47,7 @@ source ~/.zshrc
 ```
 4. let it rip
 ```bash
-codenow
+newcode
 ```
 
 
