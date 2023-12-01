@@ -37,8 +37,8 @@ code .
 ```bash
 nano ~/.zshrc
 ```
-2. alias 
+2. create an alias 
 ```bash
-newc=/Users/beto/create_and_open.sh
+alias newc=/Users/beto/create_and_open.sh
 ```
 
