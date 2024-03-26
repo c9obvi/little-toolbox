@@ -32,3 +32,7 @@
 > [!CAUTION]
 > Negative potential consequences of an action.
 ```
+
+
+[!WARNING]
+Critical content demanding immediate user attention due to potential risks.
