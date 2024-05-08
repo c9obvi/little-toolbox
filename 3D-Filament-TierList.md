@@ -8,6 +8,43 @@ Welcome to the ultimate guide for choosing the right 3D printer filament. This t
 - [Filament Tier List Table](#filament-tier-list-table)
 - [Filament Descriptions](#filament-descriptions)
 
+## Long story short:
+## Top 5 Best 3D Printer Filaments (Bambu Labs P1S)
+
+Based on versatility, ease of print, and reasonable price, here are the five best filaments for your Bambu Labs P1S:
+
+1. **PCTG (Polycyclohexylene Terephthalate Glycol-Modified)**
+   - **Versatility**: Highly impact-resistant and durable.
+   - **Ease of Print**: Low warping, easy to print.
+   - **Reasonable Price**: More expensive than PETG but worth it for its performance.
+   - **Ideal Uses**: High-stress functional prototypes, mechanical parts, and household items.
+
+2. **CFPLA (Carbon Fiber PLA)**
+   - **Versatility**: Stiff, strong, and dimensionally stable.
+   - **Ease of Print**: Prints like regular PLA.
+   - **Reasonable Price**: Slightly more expensive than standard PLA.
+   - **Ideal Uses**: Functional parts, engineering prototypes, and aesthetic prints.
+
+3. **PETG (Polyethylene Terephthalate Glycol-Modified)**
+   - **Versatility**: Suitable for a wide range of projects.
+   - **Ease of Print**: Slightly more challenging than PLA but still straightforward.
+   - **Reasonable Price**: Affordable and widely available.
+   - **Ideal Uses**: Enclosures, household items, and mechanical parts.
+
+4. **ASA (Acrylonitrile Styrene Acrylate)**
+   - **Versatility**: UV-resistant and weather-resistant.
+   - **Ease of Print**: Prints like ABS but with less warping.
+   - **Reasonable Price**: Moderately priced, comparable to ABS.
+   - **Ideal Uses**: Outdoor projects, enclosures, automotive parts.
+
+5. **Tough PLA**
+   - **Versatility**: Improved impact resistance over standard PLA.
+   - **Ease of Print**: Prints like regular PLA.
+   - **Reasonable Price**: Slightly more expensive than standard PLA.
+   - **Ideal Uses**: Prototypes, mechanical parts, and household items.
+
+
+
 ## Tier List Overview
 - **S Tier**: The best filaments that you should design your projects around whenever possible.
 - **A Tier**: Excellent filaments with minor drawbacks that make them slightly less universal than S Tier.
