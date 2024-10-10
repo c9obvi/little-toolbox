@@ -92,4 +92,4 @@ When designing your website in Wix Studio, apply these breakpoints to adjust you
    /* High-resolution displays and desktops */
    @media (min-width: 1441px) {
      /* Styles for high-resolution and desktop devices */
-   }```
+   }
