@@ -2,6 +2,27 @@
 
 A comprehensive list of the top smartphones with their screen resolutions and recommended breakpoints for Wix Studio web development. This cheat sheet helps you design responsive websites by targeting the most popular devices effectively.
 
+## Recommended Wix Studio Breakpoints
+
+To ensure your website looks optimal across the most popular devices, use the following breakpoints in Wix Studio. These breakpoints are based on common viewport widths of top smartphones.
+
+| **Breakpoint (px)** | **Target Devices**                                            |
+|---------------------|---------------------------------------------------------------|
+| **320**             | Small phones (e.g., older iPhones like iPhone SE)             |
+| **375**             | iPhone 13 Mini, iPhone 14 Mini, Google Pixel 7, Galaxy S23    |
+| **420**             | Standard phones (e.g., iPhone 13, iPhone 14, Pixel 7 Pro)     |
+| **480**             | Larger phones (e.g., iPhone 15 Plus, Galaxy S23 Ultra)        |
+| **1440**            | High-resolution devices (e.g., OnePlus 11, Xiaomi 13 Pro)      |
+
+### Breakpoint Guidelines
+
+- **320px:** Targets very small devices. Ensure content is readable and navigable.
+- **375px:** Suitable for most standard smartphones. Optimize layout for typical phone usage.
+- **420px:** Accommodates larger smartphones and phablets. Adjust spacing and element sizes accordingly.
+- **480px:** Designed for the largest phones and small tablets. Ensure ample space and usability.
+- **1440px:** Targets high-resolution displays and larger devices. Perfect for desktops and high-end smartphones.
+
+
 ## Top 15 Smartphones
 
 ### iPhones
@@ -33,25 +54,6 @@ A comprehensive list of the top smartphones with their screen resolutions and re
 
 *Note: Width (px) refers to the viewport width, which is essential for setting responsive breakpoints.*
 
-## Recommended Wix Studio Breakpoints
-
-To ensure your website looks optimal across the most popular devices, use the following breakpoints in Wix Studio. These breakpoints are based on common viewport widths of top smartphones.
-
-| **Breakpoint (px)** | **Target Devices**                                            |
-|---------------------|---------------------------------------------------------------|
-| **320**             | Small phones (e.g., older iPhones like iPhone SE)             |
-| **375**             | iPhone 13 Mini, iPhone 14 Mini, Google Pixel 7, Galaxy S23    |
-| **420**             | Standard phones (e.g., iPhone 13, iPhone 14, Pixel 7 Pro)     |
-| **480**             | Larger phones (e.g., iPhone 15 Plus, Galaxy S23 Ultra)        |
-| **1440**            | High-resolution devices (e.g., OnePlus 11, Xiaomi 13 Pro)      |
-
-### Breakpoint Guidelines
-
-- **320px:** Targets very small devices. Ensure content is readable and navigable.
-- **375px:** Suitable for most standard smartphones. Optimize layout for typical phone usage.
-- **420px:** Accommodates larger smartphones and phablets. Adjust spacing and element sizes accordingly.
-- **480px:** Designed for the largest phones and small tablets. Ensure ample space and usability.
-- **1440px:** Targets high-resolution displays and larger devices. Perfect for desktops and high-end smartphones.
 
 ## Usage in Wix Studio
 
