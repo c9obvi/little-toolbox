@@ -12,6 +12,10 @@ myenv\Scripts\activate
 
 # On Unix or MacOS
 source myenv/bin/activate
+
+# using UV
+uv venv --python 3.11
+source .venv/bin/activate
 ```
 
 ## Basic Flask Quick Start
