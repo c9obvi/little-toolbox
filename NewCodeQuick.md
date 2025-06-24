@@ -35,6 +35,10 @@ OR
    ```
 
 > [!NOTE] This script assumes that `code` is set up as an alias in your `~/.zshrc` file to open Visual Studio Code. Ensure this alias exists before running the script.
+> to add this
+> ```bash
+> alias code="/Applications/Cursor.app/Contents/Resources/app/bin/code"
+> ```
 
 ## addint to ~/.zshrc
 
