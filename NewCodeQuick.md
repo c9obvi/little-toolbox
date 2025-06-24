@@ -15,6 +15,11 @@ mkdir "$dir_name" && cd "$dir_name"
 
 # Open Visual Studio Code in the current directory
 code .
+
+OR
+
+# Open Cursor in the current directory
+/Applications/Cursor.app/Contents/Resources/app/bin/code .
 ```
 
 ## Usage
